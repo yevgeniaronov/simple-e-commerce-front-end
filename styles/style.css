@@ -1,0 +1,57 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video                        { margin: 0; padding: 0; border: 0; font-size: 100%; font: inherit; vertical-align: baseline; }
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section      { display: block; }
+body                                            { line-height: 1; }
+ol, ul                                          { list-style: none; }
+blockquote, q                                   { quotes: none; }
+blockquote:before, blockquote:after,
+q:before, q:after                               { content: ''; content: none; }
+table                                           { border-collapse: collapse; border-spacing: 0; }
+
+
+
+/* main */
+.main           { padding: 15px; max-width: 80%; margin: 0 auto; position: relative;}
+.clearfix:after { visibility: hidden; display: block; font-size: 0; content: ""; clear: both; height: 0; }
+body            { font-family: 'Arial', sans-serif; border-top: 4px solid green; min-width: 1024px; background-color: #dae4f1; }
+a,
+a:hover         { text-decoration: inherit; color: inherit; }
+
+/* header */
+header          { background-color: #eeefef; }
+.logo           { background: url("images/logo.png"); width: 114px;  height: 40px; display: inline-block;border-right: 2px solid #d9dbdc; }
+.loginButton    { display: block; position: absolute; top: 0; right: 0;background: #dee5f4; background: -moz-linear-gradient(top, #dee5f4 0%, #cad3e0 100%); background: -webkit-gradient(left top, left bottom, color-stop(0%, #dee5f4), color-stop(100%, #cad3e0)); background: -webkit-linear-gradient(top, #dee5f4 0%, #cad3e0 100%); background: -o-linear-gradient(top, #dee5f4 0%, #cad3e0 100%); background: -ms-linear-gradient(top, #dee5f4 0%, #cad3e0 100%); background: linear-gradient(to bottom, #dee5f4 0%, #cad3e0 100%); filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#dee5f4', endColorstr='#cad3e0', GradientType=0 ); width: 60px; height: 30px; line-height: 30px; font-size: 12px; text-align: center; color: #1c84c5; border: 1px solid #bfc0c0; border-top: none; border-bottom-right-radius: 3px; border-bottom-left-radius: 3px; -webkit-box-shadow: 0px 3px 7px 0px rgba(191,192,192,0.76); -moz-box-shadow: 0px 3px 7px 0px rgba(191,192,192,0.76); box-shadow: 0px 3px 7px 0px rgba(191,192,192,0.76); }
+.topNav a       { text-transform: uppercase; color: #007cc3; font-size: 13px; padding: 0 15px;}
+.topNav         { display: inline-block;}
+.loginButton    { text-transform: inherit; }
+
+/* slider */
+.carousel-indicators    { right: 25px;bottom: 10px;width: initial;left: inherit;}
+.sliderSection          { background-color: #eeefef;}
+
+/* sound */
+.soundsContainer                    { display: flex; flex-direction: column; }
+.soundSection                       { background-color: #dae4f1; }
+.soundName                          { background-color: #fff; width: 24%; margin-right: 1%; float: left; height: 70px; border: 1px solid #f4f7fb; }
+.soundName > div                    { width: 50%; height: 100%; position: relative; padding: 5px;}
+.soundDescription h3                { font-weight: bold; font-size: 12px;     white-space: nowrap; overflow: hidden; text-overflow: ellipsis;}
+.soundDescription p                 { font-size: 12px; white-space: nowrap; overflow: hidden; text-overflow: ellipsis;}
+.soundDescriptionAndAddToCart       { float: right; }
+.soundImage                         { background: url("images/soundPic.png"); width: 59px;  height: 59px; display: inline-block; }
+.soundImageContainer                { float: left; }
+.soundSection h2                    { width: 35%; height: 20px; background-color: #017dc3; line-height: 20px; font-size: 12px; color: #fff; padding-left: 5px; border-top-left-radius: 4px; border-top-right-radius: 4px; }
+.soundBorder                        { border: 1px solid #76b5dc; margin-bottom: 5px; }
+.addToCartButton                    { background: url("images/addToCartIcon.png"); width: 14px; height: 13px; display: block;     position: absolute; bottom: 3px; right: 3px;}
+.soundsRow                          { margin-bottom: 8px; }
